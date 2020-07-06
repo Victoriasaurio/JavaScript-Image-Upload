@@ -1,0 +1,39 @@
+html, body {
+    padding: 0%;
+    margin: 0%;
+    height: 100wh;
+}
+
+.container {
+    height: 100%;
+    display: flex; /*Se utiliza flex-box para centrar la tarjeta*/
+    justify-content: center; /*Contenido centrado horizontal y vertical*/
+    align-items: center;
+    background: gray;
+}
+
+/*Tamaño de la imagen para ajustarse en el card*/
+.container img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    border: 1px solid black;
+    height: 25rem;
+    width: 25rem;
+    position: relative;
+}
+
+.card-footer {
+    position: absolute; /*Estará en la parte inferior del contenedor*/
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: white;
+    padding: 12px; /*Ancho footer*/
+}
